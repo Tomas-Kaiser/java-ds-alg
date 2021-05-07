@@ -9,7 +9,51 @@ public class Array {
         this.count = 0;
     }
 
+    public int max() {
+        int max = 0;
+        for (int item : items) {
+            if (item > max) max = item;
+        }
+
+        return max;
+    }
+
+    public Array intersect(Array other) {
+        Array common = new Array(count);
+
+        for (int item : items) {
+            if (other.indexOf(item) >= 0){
+                common.insert(item);
+            }
+        }
+
+        return common;
+    }
+
+    public Array reverse(){
+        var reversed = new Array(count);
+        for (int i = count - 1; i >= 0; i--) {
+            reversed.insert(items[i]);
+        }
+
+        return reversed;
+    }
+
+    public void insertAt(int index){
+        // resize array if needed
+
+        // shift items to the right
+
+        // insert the item in proposed index
+    }
+
     public void insert(int item) {
+        resize();
+
+        items[count++] = item;
+    }
+
+    private void resize() {
         if (count == items.length) {
             int[] newItems = new int[count * 2];
             for (int i = 0; i < count; i++) {
@@ -17,8 +61,6 @@ public class Array {
             }
             items = newItems;
         }
-
-        items[count++] = item;
     }
 
     public int indexOf(int item) {

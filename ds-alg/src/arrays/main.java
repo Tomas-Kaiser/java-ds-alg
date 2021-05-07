@@ -14,8 +14,19 @@ public class main {
         numbers.insert(60);
         numbers.insert(70);
 
-        System.out.println(numbers.indexOf(30));
+//        System.out.println(numbers.indexOf(30));
 //        numbers.removeAt(3);
+//        System.out.println(numbers.max());
+
+
+//        Array other = new Array(3);
+//        other.insert(10);
+//        other.insert(330);
+//        other.insert(30);
+//
+//        numbers.intersect(other).print();
+
+        numbers.reverse().print();
         System.out.println("----------");
         numbers.print();
     }

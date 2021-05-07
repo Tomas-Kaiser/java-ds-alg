@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9b8dba0-a159-45d2-9964-df65f1645ae8" name="Default Changelist" comment="" />
+    <list default="true" id="b9b8dba0-a159-45d2-9964-df65f1645ae8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ds-alg/arrays/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds-alg/arrays/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ds-alg/arrays/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds-alg/arrays/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +21,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arrays/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="660">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Data Structures - Part 1/DataStructures/src/com/codewithmosh/Array.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/arrays/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="553">
+              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -45,6 +60,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>size</find>
+      <find>max</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,8 +70,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/arrays/Arrays.java" />
-        <option value="$PROJECT_DIR$/src/arrays/Array.java" />
         <option value="$PROJECT_DIR$/src/arrays/main.java" />
+        <option value="$PROJECT_DIR$/src/arrays/Array.java" />
       </list>
     </option>
   </component>
@@ -89,12 +105,6 @@
               <item name="ds-alg" type="b2602c69:ProjectViewProjectNode" />
               <item name="ds-alg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-alg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-alg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,7 +177,7 @@
     <frame x="0" y="23" width="1536" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25301206" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25635877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Azure Explorer" order="3" />
@@ -175,12 +185,9 @@
       <window_info id="Designer" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Remote Spark Job in Cluster" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39101717" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39101717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -190,6 +197,9 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="11" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="12" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32893" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -208,17 +218,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/Array.java">
+    <entry file="file://$PROJECT_DIR$/src/arrays/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="660">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/main.java">
+    <entry file="file://$USER_HOME$/Downloads/Data Structures - Part 1/DataStructures/src/com/codewithmosh/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="1188">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
         </state>
       </provider>
     </entry>
