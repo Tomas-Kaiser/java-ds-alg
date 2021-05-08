@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-public class main {
+public class MainArray {
 
     static public void main(String[] args) {
         Array numbers = new Array(3);
