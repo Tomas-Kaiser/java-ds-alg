@@ -31,10 +31,11 @@ We use it to store list of items seqentially.
 
 Arrays are static! It has fix size.
 
-lookup O(1)
-insert O(n) > if we increase a size we have to copy all items into a new one
-delete O(n) > if we delete the first item all the rest items must be shifted to the left
-delete O(1) > if we delete the last item but in big O Notation we have to take the worst case  scenario (not the best one like here)
+- lookup by index O(1)
+- lookup by value O(n)
+- insert O(n) > if we increase a size we have to copy all items into a new one
+- delete O(n) > if we delete the first item all the rest items must be shifted to the left
+- delete O(1) > if we delete the last item but in big O Notation we have to take the worst case  scenario (not the best one like here)
 
 We have two types of dynamic arrays:
 
