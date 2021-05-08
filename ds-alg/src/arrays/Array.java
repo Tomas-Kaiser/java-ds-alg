@@ -39,12 +39,17 @@ public class Array {
         return reversed;
     }
 
-    public void insertAt(int index){
+    public void insertAt(int index, int item){
+        if (index < 0 || index > count) throw new IllegalArgumentException();
+
         // resize array if needed
+        this.resize();
 
-        // shift items to the right
+        for (int i = count - 1; i >= index; i--)
+            items[i + 1] = items[i];
 
-        // insert the item in proposed index
+        items[index] = item;
+        count++;
     }
 
     public void insert(int item) {

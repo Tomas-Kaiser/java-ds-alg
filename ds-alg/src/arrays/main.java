@@ -26,7 +26,8 @@ public class main {
 //
 //        numbers.intersect(other).print();
 
-        numbers.reverse().print();
+        numbers.insertAt(1, 22);
+//        numbers.reverse().print();
         System.out.println("----------");
         numbers.print();
     }

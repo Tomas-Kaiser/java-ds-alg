@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b8dba0-a159-45d2-9964-df65f1645ae8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds-alg/arrays/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds-alg/arrays/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds-alg/arrays/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds-alg/arrays/main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arrays/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arrays/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/main.java" afterDir="false" />
     </list>
@@ -24,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arrays/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="446">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -33,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/Data Structures - Part 1/DataStructures/src/com/codewithmosh/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="56" column="16" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="16" />
+            <state relative-caret-position="-32">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -42,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/arrays/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+            <state relative-caret-position="382">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -61,6 +58,8 @@
     <findStrings>
       <find>size</find>
       <find>max</find>
+      <find>inse</find>
+      <find>insertA</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -220,22 +219,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="446">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Data Structures - Part 1/DataStructures/src/com/codewithmosh/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="16" />
+        <state relative-caret-position="-32">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+        <state relative-caret-position="382">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
