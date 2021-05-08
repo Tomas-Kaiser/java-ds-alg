@@ -44,4 +44,21 @@ We have two types of dynamic arrays:
 
 We cannot use Vector for multi-thread application because it is synchronized instead we can use the ArrayList!!
 
+## LinkedList
 
+We use LinkedList to store list of object in sequence but inlike arrays LinkedList can grow shrink automatically.
+LinkedList consists of a group of nodes in squence. Each node holds two pieces of data. One is a value and the other is
+the address of the next node. We call the first node as head and the last one tail.
+
+Time of complexity:
+
+- Lookup O(n)
+- By index O(n)
+- Insert
+	- At the end O(1)
+	- At the beginning O(1)
+	- At the middle O(n)
+- Delete
+	- From the end O(n)
+	- From the beginning O(1)
+	- From the middle O(n)
