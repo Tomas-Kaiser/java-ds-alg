@@ -12,6 +12,7 @@ public class LinkedList {
 
     private Node first;
     private Node last;
+    private int count = 0;
 
     public void addLast(int value){
         Node node = new Node(value);
@@ -26,6 +27,7 @@ public class LinkedList {
 
         }
 
+        count++;
     }
 
     public void addFirst(int value){
@@ -39,6 +41,21 @@ public class LinkedList {
             node.next = first;
             first = node;
         }
+
+        count++;
+    }
+
+    public int indexOf(int value) {
+        Node node = first;
+
+        for (int i = 0; i < count; i++){
+            if (node.value == value){
+                return i;
+            }
+            node = node.next;
+        }
+
+        return -1;
     }
 
 

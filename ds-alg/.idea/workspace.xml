@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b8dba0-a159-45d2-9964-df65f1645ae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedList/MainLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds-alg/arrays/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds-alg/arrays/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds-alg/arrays/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MainArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedList/MainLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedList/MainLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/linkedList/MainLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="370">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -33,13 +29,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+            <state relative-caret-position="268">
+              <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
+                <element signature="method#addLast#0;class#LinkedList#0" />
                 <element signature="method#addFirst#0;class#LinkedList#0" />
-                <element signature="e#925#926#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -262,21 +258,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="268">
+          <caret line="50" column="40" lean-forward="true" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
+            <element signature="method#addLast#0;class#LinkedList#0" />
             <element signature="method#addFirst#0;class#LinkedList#0" />
-            <element signature="e#925#926#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/MainLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="370">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
