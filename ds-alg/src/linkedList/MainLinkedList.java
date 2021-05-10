@@ -16,6 +16,9 @@ public class MainLinkedList {
 
 //        System.out.println(list.indexOf(0));
 
+//        System.out.println(list.contains(12));
+
+
         System.out.println(list);
     }
 }

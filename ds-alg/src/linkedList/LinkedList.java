@@ -58,6 +58,10 @@ public class LinkedList {
         return -1;
     }
 
+    public boolean contains(int value) {
+        return indexOf(value) != -1;
+    }
+
 
     private boolean isEmpty() {
         return first == null;
