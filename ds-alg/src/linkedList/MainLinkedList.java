@@ -15,9 +15,8 @@ public class MainLinkedList {
 //        list.addFirst(40);
 
 //        System.out.println(list.indexOf(0));
-
 //        System.out.println(list.contains(12));
-
+//        list.removeLast();
 
         System.out.println(list);
     }
