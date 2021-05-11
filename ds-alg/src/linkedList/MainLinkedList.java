@@ -1,5 +1,7 @@
 package linkedList;
 
+import java.util.Arrays;
+
 public class MainLinkedList {
 
     public static void main(String[] args){
@@ -17,6 +19,10 @@ public class MainLinkedList {
 //        System.out.println(list.indexOf(0));
 //        System.out.println(list.contains(12));
 //        list.removeLast();
+
+//        System.out.println(list.size());
+
+        System.out.println(Arrays.toString(list.toArray()));
 
         System.out.println(list);
     }

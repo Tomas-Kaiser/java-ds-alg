@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedList/MainLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="172">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -29,15 +29,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="418">
+              <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
                 <element signature="method#addLast#0;class#LinkedList#0" />
                 <element signature="method#addFirst#0;class#LinkedList#0" />
                 <element signature="method#indexOf#0;class#LinkedList#0" />
-                <element signature="e#2236#2237#0" expanded="true" />
+                <element signature="method#removeFirst#0;class#LinkedList#0" />
+                <element signature="method#removeLast#0;class#LinkedList#0" />
+                <element signature="method#getPrevious#0;class#LinkedList#0" />
+                <element signature="e#2590#2591#0" expanded="true" />
+                <element signature="method#toString#0;class#LinkedList#0" />
               </folding>
             </state>
           </provider>
@@ -260,22 +264,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/MainLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="172">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="418">
+          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
             <element signature="method#addLast#0;class#LinkedList#0" />
             <element signature="method#addFirst#0;class#LinkedList#0" />
             <element signature="method#indexOf#0;class#LinkedList#0" />
-            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="method#removeFirst#0;class#LinkedList#0" />
+            <element signature="method#removeLast#0;class#LinkedList#0" />
+            <element signature="method#getPrevious#0;class#LinkedList#0" />
+            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="method#toString#0;class#LinkedList#0" />
           </folding>
         </state>
       </provider>

@@ -72,7 +72,7 @@ public class LinkedList {
         if (first == last) {
             first = last = null;
 
-            count--;
+            count = 0;
             return;
         }
 
@@ -88,6 +88,7 @@ public class LinkedList {
 
         if (first == last) {
             first = last = null;
+            count = 0;
             return;
         }
 
@@ -96,6 +97,25 @@ public class LinkedList {
         previous.next = null;
         last = previous;
 
+        count--;
+    }
+
+    public int size(){
+        return count;
+    }
+
+    public int[] toArray(){
+        int[] arr = new int[count];
+
+        int index = 0;
+        Node current = first;
+        while(current != null) {
+            arr[index++] = current.value;
+            current = current.next;
+        }
+
+
+        return arr;
     }
 
     private Node getPrevious(Node node){
