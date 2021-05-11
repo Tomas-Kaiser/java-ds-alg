@@ -62,3 +62,11 @@ Time of complexity:
 	- From the end O(n)
 	- From the beginning O(1)
 	- From the middle O(n)
+
+## Arrays vs LinkedList
+
+- Static arrays have fixed size
+- Dynamic arrays grow by 50-100%
+- LinkedList do not waste memory
+- Use arrays if you know the number of items to store
+- We can set initial size in arrayList like new ArrayList(100)
