@@ -118,6 +118,33 @@ public class LinkedList {
         return arr;
     }
 
+
+//      p       c       next
+//    [10   -> 20     -> 30      -> 40]
+
+    public void reverse(){
+        if (isEmpty() || count == 1) return;
+
+        Node current = first.next;
+        Node previous = first;
+
+        while (current != null){
+            Node next = current.next;
+
+            if (previous == first) previous.next = null;
+
+            current.next = previous;
+            previous = current;
+            current = next;
+
+        }
+
+        last = first;
+        last.next = null;
+        first = previous;
+
+    }
+
     private Node getPrevious(Node node){
         Node current = first;
         while (current != null){

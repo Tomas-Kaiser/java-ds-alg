@@ -24,6 +24,11 @@ public class MainLinkedList {
 
         System.out.println(Arrays.toString(list.toArray()));
 
+        list.reverse();
+        System.out.println(Arrays.toString(list.toArray()));
+
+        System.out.println("-----------");
+
         System.out.println(list);
     }
 }
