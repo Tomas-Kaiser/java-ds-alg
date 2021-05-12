@@ -67,6 +67,6 @@ Time of complexity:
 
 - Static arrays have fixed size
 - Dynamic arrays grow by 50-100%
-- LinkedList do not waste memory
+- LinkedList do not waste memory (but takes a bit memory as it stores value and the pointer to the next node)
 - Use arrays if you know the number of items to store
 - We can set initial size in arrayList like new ArrayList(100)
