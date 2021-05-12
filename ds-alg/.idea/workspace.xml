@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedList/MainLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="357">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+            <state relative-caret-position="80">
+              <caret line="145" column="57" selection-start-line="145" selection-start-column="57" selection-end-line="145" selection-end-column="57" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -40,8 +40,9 @@
                 <element signature="method#removeFirst#0;class#LinkedList#0" />
                 <element signature="method#removeLast#0;class#LinkedList#0" />
                 <element signature="method#toArray#0;class#LinkedList#0" />
+                <element signature="method#reverse#0;class#LinkedList#0" />
                 <element signature="method#getPrevious#0;class#LinkedList#0" />
-                <element signature="e#3129#3130#0" expanded="true" />
+                <element signature="e#3585#3586#0" expanded="true" />
                 <element signature="method#toString#0;class#LinkedList#0" />
               </folding>
             </state>
@@ -265,15 +266,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/MainLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="357">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        <state relative-caret-position="80">
+          <caret line="145" column="57" selection-start-line="145" selection-start-column="57" selection-end-line="145" selection-end-column="57" />
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
@@ -283,8 +284,9 @@
             <element signature="method#removeFirst#0;class#LinkedList#0" />
             <element signature="method#removeLast#0;class#LinkedList#0" />
             <element signature="method#toArray#0;class#LinkedList#0" />
+            <element signature="method#reverse#0;class#LinkedList#0" />
             <element signature="method#getPrevious#0;class#LinkedList#0" />
-            <element signature="e#3129#3130#0" expanded="true" />
+            <element signature="e#3585#3586#0" expanded="true" />
             <element signature="method#toString#0;class#LinkedList#0" />
           </folding>
         </state>

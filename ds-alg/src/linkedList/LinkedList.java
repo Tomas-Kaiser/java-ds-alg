@@ -121,28 +121,44 @@ public class LinkedList {
 
 //      p       c       next
 //    [10   -> 20     -> 30      -> 40]
-
     public void reverse(){
-        if (isEmpty() || count == 1) return;
+        if (isEmpty()) return;
 
         Node current = first.next;
         Node previous = first;
-
         while (current != null){
             Node next = current.next;
-
-            if (previous == first) previous.next = null;
-
             current.next = previous;
             previous = current;
             current = next;
-
         }
 
         last = first;
         last.next = null;
         first = previous;
 
+    }
+
+
+//  [10 -> 20 -> 30 -> 40 -> 50]
+//                *          *
+    public int getKthFromTheEnd(int k) {
+        if (isEmpty()) throw new IllegalStateException();
+        if (k <= 0 || k > count) throw new IllegalArgumentException();
+
+        Node current = first;
+        Node second = current;
+
+        for (int i = 0; i < k - 1; i++){
+            second = second.next;
+        }
+
+        while (second.next != null) {
+            second = second.next;
+            current = current.next;
+        }
+
+        return current.value;
     }
 
     private Node getPrevious(Node node){
@@ -154,7 +170,6 @@ public class LinkedList {
 
         return null;
     }
-
 
     private boolean isEmpty() {
         return first == null;

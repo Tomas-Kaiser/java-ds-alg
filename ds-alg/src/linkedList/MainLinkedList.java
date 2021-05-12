@@ -21,12 +21,13 @@ public class MainLinkedList {
 //        list.removeLast();
 
 //        System.out.println(list.size());
+//
+//        System.out.println(Arrays.toString(list.toArray()));
+//
+//        list.reverse();
+//        System.out.println(Arrays.toString(list.toArray()));
 
-        System.out.println(Arrays.toString(list.toArray()));
-
-        list.reverse();
-        System.out.println(Arrays.toString(list.toArray()));
-
+        System.out.println(list.getKthFromTheEnd(3));
         System.out.println("-----------");
 
         System.out.println(list);
