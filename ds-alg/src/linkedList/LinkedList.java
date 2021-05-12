@@ -26,7 +26,6 @@ public class LinkedList {
             // If it is the second node or more...
             last.next = node;
             last = node;
-
         }
 
         count++;
@@ -196,6 +195,27 @@ public class LinkedList {
 //            System.out.println(current.value);
 //        }
 
+    }
+
+//  [10 -> 20 -> 30 -> 40 -> 50 -> 60]
+//                s           f
+// Not possible use this method for current state, but it works :)
+    public boolean hasLoop() {
+        Node faster = first;
+        Node slower = first;
+
+        while (faster != null && faster.next != null && faster.next.next != null) {
+            System.out.println(faster.value);
+            faster = faster.next.next;
+            slower = slower.next;
+
+            if (faster == slower){
+                System.out.println("MEET:" + faster.value + ", " + slower.value);
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private Node getPrevious(Node node){

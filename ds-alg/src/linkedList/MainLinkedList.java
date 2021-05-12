@@ -30,7 +30,9 @@ public class MainLinkedList {
 //        System.out.println(Arrays.toString(list.toArray()));
 
 //        System.out.println(list.getKthFromTheEnd(3));
-        list.printMiddle();
+//        list.printMiddle();
+
+        System.out.println(list.hasLoop());
         System.out.println("-----------");
 
         System.out.println(list);
