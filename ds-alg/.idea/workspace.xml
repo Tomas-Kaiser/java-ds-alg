@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedList/MainLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+            <state relative-caret-position="237">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="145" column="57" selection-start-line="145" selection-start-column="57" selection-end-line="145" selection-end-column="57" />
+            <state relative-caret-position="519">
+              <caret line="180" column="28" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
               <folding>
                 <element signature="e#158#159#0" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -41,8 +41,9 @@
                 <element signature="method#removeLast#0;class#LinkedList#0" />
                 <element signature="method#toArray#0;class#LinkedList#0" />
                 <element signature="method#reverse#0;class#LinkedList#0" />
+                <element signature="method#getKthFromTheEnd#0;class#LinkedList#0" />
                 <element signature="method#getPrevious#0;class#LinkedList#0" />
-                <element signature="e#3585#3586#0" expanded="true" />
+                <element signature="e#4519#4520#0" expanded="true" />
                 <element signature="method#toString#0;class#LinkedList#0" />
               </folding>
             </state>
@@ -212,7 +213,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39101717" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39101717" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,15 +267,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/MainLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        <state relative-caret-position="237">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="145" column="57" selection-start-line="145" selection-start-column="57" selection-end-line="145" selection-end-column="57" />
+        <state relative-caret-position="519">
+          <caret line="180" column="28" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
           <folding>
             <element signature="e#158#159#0" expanded="true" />
             <element signature="e#200#201#0" expanded="true" />
@@ -285,8 +286,9 @@
             <element signature="method#removeLast#0;class#LinkedList#0" />
             <element signature="method#toArray#0;class#LinkedList#0" />
             <element signature="method#reverse#0;class#LinkedList#0" />
+            <element signature="method#getKthFromTheEnd#0;class#LinkedList#0" />
             <element signature="method#getPrevious#0;class#LinkedList#0" />
-            <element signature="e#3585#3586#0" expanded="true" />
+            <element signature="e#4519#4520#0" expanded="true" />
             <element signature="method#toString#0;class#LinkedList#0" />
           </folding>
         </state>

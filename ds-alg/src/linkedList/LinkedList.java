@@ -141,7 +141,7 @@ public class LinkedList {
 
 
 //  [10 -> 20 -> 30 -> 40 -> 50]
-//                *          *
+//    *          *
     public int getKthFromTheEnd(int k) {
         if (isEmpty()) throw new IllegalStateException();
         if (k <= 0 || k > count) throw new IllegalArgumentException();
@@ -159,6 +159,43 @@ public class LinkedList {
         }
 
         return current.value;
+    }
+
+//  [10 -> 20 -> 30 -> 40 -> 50 -> 60]
+    public void printMiddle(){
+        Node current = first;
+        Node second = current;
+
+        while (second != last && second.next != last) {
+            current = current.next;
+            second = second.next.next;
+        }
+
+        System.out.println(second.value);
+        if (second == last) {
+            System.out.println(current.value);
+        } else {
+            System.out.println(current.value + ", " + current.next.value);
+        }
+
+//        Or another option:
+
+
+//        for (int i = 0; i < count / 2; i++){
+//            second = second.next;
+//        }
+//
+//        while (second != last) {
+//            current = current.next;
+//            second = second.next;
+//        }
+//
+//        if (count % 2 == 0) {
+//            System.out.println(current.value + ", " + current.next.value);
+//        } else {
+//            System.out.println(current.value);
+//        }
+
     }
 
     private Node getPrevious(Node node){

@@ -10,6 +10,8 @@ public class MainLinkedList {
         list.addLast(20);
         list.addLast(30);
         list.addLast(40);
+        list.addLast(50);
+        list.addLast(60);
 
 //        list.addFirst(10);
 //        list.addFirst(20);
@@ -27,7 +29,8 @@ public class MainLinkedList {
 //        list.reverse();
 //        System.out.println(Arrays.toString(list.toArray()));
 
-        System.out.println(list.getKthFromTheEnd(3));
+//        System.out.println(list.getKthFromTheEnd(3));
+        list.printMiddle();
         System.out.println("-----------");
 
         System.out.println(list);
