@@ -70,3 +70,20 @@ Time of complexity:
 - LinkedList do not waste memory (but takes a bit memory as it stores value and the pointer to the next node)
 - Use arrays if you know the number of items to store
 - We can set initial size in arrayList like new ArrayList(100)
+
+## STACKS
+
+We use stack when we want to:
+
+- Implement the undo feature
+- Build compilers (eg syntax checking)
+- Evaluate expressions (eg 1 + 2 * 3)
+- Build navigation (eg forward/back)
+
+It is LIFO (Last In, First Out)
+
+Operations:
+- push(item)  > O(1)
+- pop()       > O(1)
+- peek()      > O(1)
+- isEmpty()   > O(1)
