@@ -7,7 +7,7 @@ public class ReverseString {
         if (input == null) throw new IllegalArgumentException();
 
         Stack<Character> charStack = new Stack<>();
-        for (Character ch : input.toCharArray()) {
+        for (char ch : input.toCharArray()) {
             charStack.push(ch);
         }
 

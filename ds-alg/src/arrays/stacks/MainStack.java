@@ -8,17 +8,14 @@ public class MainStack {
 
 
 
-
-
-
-
-
-
+        // Syntax validation
+//        SyntaxCheck syntaxCheck = new SyntaxCheck();
+//        System.out.println(syntaxCheck.isValid("((1 + 3))<9>"));
 
 
         // Reverse a String using Stack
-        ReverseString reverseString = new ReverseString();
-        System.out.println(reverseString.reverse("abcd"));
+//        ReverseString reverseString = new ReverseString();
+//        System.out.println(reverseString.reverse("abcd"));
     }
 
 }
