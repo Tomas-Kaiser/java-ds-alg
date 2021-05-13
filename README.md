@@ -87,3 +87,24 @@ Operations:
 - pop()       > O(1)
 - peek()      > O(1)
 - isEmpty()   > O(1)
+
+## Queues
+
+Used in:
+- printers
+- OS for managing processes
+- Web servers for managin incoming requests
+- Live support systems
+Basically anywhere where we need to process jobs based on the order we receive them.
+
+it is FIFO.
+
+Operations:
+
+- enqueue for adding an item to the back in the queue
+- dequeue for removing an item at the front of the queue
+- peek for getting an item from the front without removining it
+- isEmpty
+- isFull
+
+All the above operations are O(1)
