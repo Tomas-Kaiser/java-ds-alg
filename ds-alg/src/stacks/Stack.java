@@ -1,10 +1,7 @@
-package arrays.stacks;
-
-import arrays.Array;
+package stacks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Stack {
