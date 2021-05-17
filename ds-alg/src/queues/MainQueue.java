@@ -7,15 +7,34 @@ import java.util.Stack;
 public class MainQueue {
     public static void main(String[] args){
 
-        Queue<Integer> queue = new ArrayDeque<>();
-        queue.add(10);
-        queue.add(20);
-        queue.add(30);
-        queue.add(40);
-        queue.add(50);
-        QueueReverser qr = new QueueReverser();
-        qr.reverse(queue, 4);
-        System.out.println(queue);
+
+
+
+
+
+//        LinkedListQueue lsq = new LinkedListQueue();
+//        lsq.enqueue(10);
+//        lsq.enqueue(20);
+//        lsq.enqueue(30);
+//        lsq.enqueue(40);
+//        lsq.dequeue();
+//        System.out.println(lsq.peek());
+//        System.out.println(lsq.size());
+//        System.out.println(lsq.isEmpty());
+//        System.out.println(lsq);
+
+
+
+
+//        Queue<Integer> queue = new ArrayDeque<>();
+//        queue.add(10);
+//        queue.add(20);
+//        queue.add(30);
+//        queue.add(40);
+//        queue.add(50);
+//        QueueReverser qr = new QueueReverser();
+//        qr.reverse(queue, 4);
+//        System.out.println(queue);
 
 //        PriorityQueue pq = new PriorityQueue(5);
 //        pq.enqueue(4);
