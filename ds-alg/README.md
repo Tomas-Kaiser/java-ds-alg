@@ -107,4 +107,4 @@ Operations:
 - isEmpty
 - isFull
 
-All the above operations are O(1)
+All the above operations are O(1).
