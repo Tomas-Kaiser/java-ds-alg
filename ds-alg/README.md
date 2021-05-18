@@ -108,3 +108,46 @@ Operations:
 - isFull
 
 All the above operations are O(1).
+
+## Hash Tables
+
+Also called dictionaries. Hast Tables give us a super fast look ups and we can
+use them to optimize a lot of algorithms. 
+
+We use them in:
+
+- Spell checkers as we can quickly look up a word amongst tens of thousands of
+words in less then a second.
+- Building a dictionaries
+- Compilers for looking up address of functions and variables.
+- Code editors
+
+Literally everywhere we need to look up an item super fast.
+
+- HashMap > JAVA
+- Object > JavaScript
+- Dictionary > Python & C#
+
+We use hash tables to store key value pairs.
+
+Eg:
+
+We want to store employee under the employeeNumber
+- key = employNumber
+- value = employee
+
+employNumber --> Hash Function --> address of the memory
+
+Our hash table takes the employNumber, passes it to what we call hash function
+and this hast function will tell where the employee object should be stored
+in memory.
+
+The hash function is DETERMINISTIC which means every time we give it the same
+input it will return the same value.
+
+Time complexity:
+- Insert O(1)
+- Lookup O(1)
+- Delete O(1)
+
+
