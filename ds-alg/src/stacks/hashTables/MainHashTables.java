@@ -5,8 +5,11 @@ public class MainHashTables {
     public static void main(String[] args) {
 
         Exercises exercise = new Exercises();
-        int[] arr = {1, 2, 2, 3, 3, 3, 4};
-        System.out.println(exercise.mostFrequent(arr));
+//        int[] arr = {1, 2, 2, 3, 3, 3, 4};
+//        System.out.println(exercise.mostFrequent(arr));
+
+        int[] arr = {1, 7, 5, 9, 2, 12, 3};
+        System.out.println("Pairs: " + exercise.countPairsWithDiff(arr, 2));
 
 //        HashTable hashTable = new HashTable(5);
 //        hashTable.put(0, "string 0");
