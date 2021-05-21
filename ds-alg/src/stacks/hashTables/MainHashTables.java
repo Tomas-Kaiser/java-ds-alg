@@ -6,15 +6,21 @@ public class MainHashTables {
 
     public static void main(String[] args) {
 
-        Exercises exercise = new Exercises();
+        HashTableLin hashTableLin = new HashTableLin(5);
+        hashTableLin.put(10, "This is 10");
+        hashTableLin.put(20, "This is 20");
+        hashTableLin.put(10, "Replaced");
+        System.out.println(hashTableLin);
+
+//        Exercises exercise = new Exercises();
 //        int[] arr = {1, 2, 2, 3, 3, 3, 4};
 //        System.out.println(exercise.mostFrequent(arr));
 
 //        int[] arr = {1, 7, 5, 9, 2, 12, 3};
 //        System.out.println("Pairs: " + exercise.countPairsWithDiff(arr, 2));
 
-        int[] arr = {2, 7, 11, 15};
-        System.out.println(Arrays.toString(exercise.twoSum(arr, 9)));
+//        int[] arr = {2, 7, 11, 15};
+//        System.out.println(Arrays.toString(exercise.twoSum(arr, 9)));
 //        HashTable hashTable = new HashTable(5);
 //        hashTable.put(0, "string 0");
 //        hashTable.put(1, "string 1");
