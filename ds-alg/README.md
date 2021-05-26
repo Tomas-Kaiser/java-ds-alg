@@ -161,4 +161,20 @@ a value or data.
 
 A binary tree has maximum of two children.
 
+Usage of trees:
+
+- Represent hierarchical data
+- Databases
+- Autocompletion
+- Compilers
+- Compression (JPEG, MP3)
+
+
+![Binary search tree](./imgs/binary_search_tree.png)
+
+Time complexity
+
+- Lookup O(log n)
+- Insert O(log n)
+- Delete O(log n) 
 
