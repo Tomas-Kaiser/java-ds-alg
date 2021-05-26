@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9b8dba0-a159-45d2-9964-df65f1645ae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stacks/hashTables/HashTableLin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stacks/hashTables/MainHashTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stacks/hashTables/MainHashTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stacks/hashTables/HashTableLin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="404">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding>
                 <element signature="e#336#337#0" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
@@ -45,18 +45,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Data Structures - Part 1/DataStructures/src/com/codewithmosh/HashMap.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="438">
+              <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
               <folding>
-                <element signature="method#get#0;class#HashMap#0" />
-                <element signature="method#remove#0;class#HashMap#0" />
-                <element signature="e#2246#2247#0" expanded="true" />
-                <element signature="e#2301#2302#0" expanded="true" />
-                <element signature="e#2334#2335#0" expanded="true" />
-                <element signature="e#2377#2378#0" expanded="true" />
+                <element signature="method#isIsogram#0;class#Main#0" />
+                <element signature="method#sortDesc#0;class#Main#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="159" selection-start-line="159" selection-end-line="159" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -96,7 +104,6 @@
         <option value="$PROJECT_DIR$/src/arrays/stacks/Stack.java" />
         <option value="$PROJECT_DIR$/src/arrays/stacks/MainStack.java" />
         <option value="$PROJECT_DIR$/src/stacks/MainStack.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/queues/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/queues/StackQueue.java" />
         <option value="$PROJECT_DIR$/src/queues/PriorityQueue.java" />
@@ -104,7 +111,6 @@
         <option value="$PROJECT_DIR$/src/queues/LinkedListQueue.java" />
         <option value="$PROJECT_DIR$/src/queues/MainQueue.java" />
         <option value="$PROJECT_DIR$/src/queues/StackWithTwoQueues.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/stacks/hashTables/CharChecker.java" />
         <option value="$PROJECT_DIR$/src/stacks/hashTables/HashMap.java" />
         <option value="$PROJECT_DIR$/src/stacks/hashTables/HashTable.java" />
@@ -112,6 +118,8 @@
         <option value="$PROJECT_DIR$/src/stacks/hashTables/Exercises.java" />
         <option value="$PROJECT_DIR$/src/stacks/hashTables/MainHashTables.java" />
         <option value="$PROJECT_DIR$/src/stacks/hashTables/HashTableLin.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -140,19 +148,6 @@
               <item name="ds-alg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ds-alg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-alg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stacks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ds-alg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ds-alg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stacks" type="462c0819:PsiDirectoryNode" />
-              <item name="hashTables" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -176,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainHashTables">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ds-alg" />
@@ -241,9 +236,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainHashTables" />
         <item itemvalue="Application.MainQueue" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainStack" />
         <item itemvalue="Application.MainLinkedList" />
       </list>
@@ -264,9 +259,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1536" height="849" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26238286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26238286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Azure Explorer" order="3" />
@@ -276,14 +270,14 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38044915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34742403" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Azure Activity Log" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32893" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="11" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="12" />
@@ -431,16 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queues/StackQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -563,16 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="145" column="36" selection-start-line="145" selection-start-column="36" selection-end-line="145" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stacks/hashTables/HashTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
@@ -594,21 +568,25 @@
     <entry file="file://$USER_HOME$/Downloads/Data Structures - Part 1/DataStructures/src/com/codewithmosh/HashTableExercises.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stacks/hashTables/Exercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
-          <folding>
-            <element signature="method#find#0;class#MostFrequent#0" />
-            <element signature="method#countPairsWithDiff#0;class#Exercises#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stacks/hashTables/MainHashTables.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stacks/hashTables/HashTableLin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -627,18 +605,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stacks/hashTables/HashTableLin.java">
+    <entry file="file://$PROJECT_DIR$/src/stacks/hashTables/Exercises.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="946">
+          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
           <folding>
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
+            <element signature="method#countPairsWithDiff#0;class#Exercises#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <element signature="method#isIsogram#0;class#Main#0" />
+            <element signature="method#sortDesc#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="159" selection-start-line="159" selection-end-line="159" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

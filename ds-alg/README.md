@@ -151,3 +151,14 @@ Time complexity:
 - Delete O(1)
 
 
+## Binary Tree
+
+A tree is a data structure that stores elements in a hierarchy. We refer to these
+elements as nodes and the lines that connect them as edges. Each node contains
+a value or data.
+
+![Binary tree](./imgs/binary_tree.png)
+
+A binary tree has maximum of two children.
+
+
