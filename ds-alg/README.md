@@ -190,4 +190,8 @@ and then 1, 6, 8, 10
     - In-order      Left, Root, Right
     - Post-order    Left, Right Root
 
+We also have:
+
+- Depth (Starts from root to the leafs)
+- Height (Starts from the leafs to the root)
 

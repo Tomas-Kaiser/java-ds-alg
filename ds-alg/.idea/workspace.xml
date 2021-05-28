@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9b8dba0-a159-45d2-9964-df65f1645ae8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/MainTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/MainTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trees/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,19 +16,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="202">
-                <caret line="188" column="53" lean-forward="true" selection-start-line="188" selection-start-column="53" selection-end-line="188" selection-end-column="53" />
+              <first_editor relative-caret-position="216">
+                <caret line="188" column="33" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/trees/MainTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
@@ -119,10 +116,10 @@
         <option value="$PROJECT_DIR$/src/stacks/hashTables/Exercises.java" />
         <option value="$PROJECT_DIR$/src/stacks/hashTables/MainHashTables.java" />
         <option value="$PROJECT_DIR$/src/stacks/hashTables/HashTableLin.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/trees/Tree.java" />
         <option value="$PROJECT_DIR$/src/trees/MainTree.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -275,7 +272,7 @@
     <frame x="0" y="23" width="1536" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26238286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26238286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Azure Explorer" order="3" />
@@ -292,7 +289,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Azure Activity Log" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32893" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32893" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Cosmos Serverless Spark Jobs" order="11" />
       <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="12" />
@@ -633,16 +630,6 @@
     <entry file="file://$PROJECT_DIR$/imgs/binary_search_tree.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="202">
-            <caret line="188" column="53" lean-forward="true" selection-start-line="188" selection-start-column="53" selection-end-line="188" selection-end-column="53" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -687,6 +674,16 @@
           <folding>
             <element signature="e#357#399#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="188" column="33" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
