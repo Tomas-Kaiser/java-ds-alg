@@ -178,3 +178,16 @@ Time complexity
 - Insert O(log n)
 - Delete O(log n) 
 
+### Traversing a tree
+
+We have two options:
+
+- Breadth first (level order traversal): Visit the nodes at the same level level
+before visiting nodes at the next level. We start at the root level 7, then 4, 9
+and then 1, 6, 8, 10
+- Depth first:
+    - Pre-order     Root, Left subtree, Right subtree
+    - In-order      Left, Root, Right
+    - Post-order    Left, Right Root
+
+

@@ -63,6 +63,60 @@ public class Tree {
         return false;
     }
 
+    public void traversePreOrder() {
+        traversePreOrder(root);
+    }
+
+    public void traverseInOrder() {
+        traverseInOrder(root);
+    }
+
+    public void traversePostOrder() {
+        traversePostOrder(root);
+    }
+
+    public int height() {
+        return height(root);
+    }
+
+    private int height(Node root) {
+        if (root == null)
+            return -1;
+
+        if (root.leftChild == null && root.rightChild == null)
+            return 0;
+
+        return 1 + Math.max(height(root.rightChild), height(root.leftChild));
+    }
+
+    private void traversePreOrder(Node root) {
+        if (root == null)
+            return;
+
+        System.out.print(root.value + ", ");
+        traversePreOrder(root.leftChild);
+        traversePreOrder(root.rightChild);
+    }
+
+    private void traverseInOrder(Node root) {
+        if (root == null)
+            return;
+
+        traverseInOrder(root.leftChild);
+        System.out.print(root.value + ", ");
+        traverseInOrder(root.rightChild);
+    }
+
+    private void traversePostOrder(Node root) {
+        if (root == null) {
+            return;
+        }
+
+        traversePostOrder(root.leftChild);
+        traversePostOrder(root.rightChild);
+        System.out.print(root.value + ", ");
+    }
+
     private boolean isEmpty() {
         return root == null;
     }

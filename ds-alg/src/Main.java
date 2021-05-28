@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.*;
 
 public class Main {
@@ -20,8 +21,9 @@ public class Main {
 //        System.out.println(isIsogram("aba"));
 //        System.out.println(isIsogram("moOse"));
 
-        System.out.println(Arrays.toString(stringSplit("abc")));
-        System.out.println(Arrays.toString(stringSplit("abcdef")));
+//        System.out.println(Arrays.toString(stringSplit("abc")));
+//        System.out.println(Arrays.toString(stringSplit("abcdef")));
+
 
 
     }
