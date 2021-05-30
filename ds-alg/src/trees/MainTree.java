@@ -1,5 +1,7 @@
 package trees;
 
+import java.util.List;
+
 public class MainTree {
     public static void main(String[] args) {
         Tree tree = new Tree();
@@ -11,7 +13,18 @@ public class MainTree {
         tree.insert(6);
         tree.insert(1);
 
-        System.out.println(tree.height());
+        tree.traverseLevelOrder();
+
+//        List<Integer> list = tree.kDistance(2);
+//        list.forEach(System.out::println);
+
+//        tree.swapRoot();
+//        System.out.println(tree.validate());
+
+//        System.out.println(tree.minBinarySearchTree());
+//        System.out.println(tree.min());
+
+//        System.out.println(tree.height());
 
 //        System.out.println("Pre order: ");
 //        tree.traversePreOrder();
